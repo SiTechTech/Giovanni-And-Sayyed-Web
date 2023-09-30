@@ -1,0 +1,75 @@
+/* html{
+    background: url(DevDuoBackGround.png) no repeat center fixed;
+    background-size: cover;
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    min-height: 200vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+header.logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.devduo{
+    width: 150px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{  /*This is for "home sayyed giovanni about videos*/
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff; /* color for text at top */
+    letter-spacing: 9px;
+    font-weight: 500px;
+    transition: 0.6s;
+    font-size: 2em;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url();
+    background-size: cover;
+
+}
