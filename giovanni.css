@@ -72,14 +72,73 @@ h1 {
     text-align: center;
     color: #fff;
     margin-top: 100px;
+    float: right;
+    padding: 100px;
 }
-.buttons {
-       top:50%;
-       left:47%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       /* text-align: center; */
-       /* background: orange; */
+ 
+button {
+    
+    
+    
+    position: relative;
+    background: white;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    text-align: center;
+    margin: 60px;
+    font-family: 'Pixelify Sans';
+    
+    
+    
+    
 }
+
+
+
+button:hover {
+   background: greenyellow;
+   letter-spacing: 0.25em;
+   box-shadow: 0 0 35px greenyellow;
+} 
+
+button:before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: black;
+}
+
+button span {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
